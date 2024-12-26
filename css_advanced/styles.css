@@ -47,7 +47,7 @@ header, #section1 {
     font-weight: 500;
 }
 
-#regis{
+.regis{
     color: white;
     background-color: #C271FF;
     display: flex;
@@ -70,7 +70,7 @@ header, #section1 {
 header{
     display: flex;
     align-items: center;
-    gap: 1050px;
+    gap: 70%;
 }
 #mybtn{
     display: flex;
@@ -114,4 +114,11 @@ span{
     margin-bottom: 0px;
     margin-top: 5px;
 }
-
+#section3{
+    text-align: center;
+}
+#videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
