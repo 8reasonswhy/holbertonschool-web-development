@@ -227,3 +227,17 @@ span{
 .baxy h2{
     font-size: 16px;
 }
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70%;
+    padding-top: 100px;
+}
+footer{
+    height: 249px;
+    margin-top: 90px;
+}
+.foot a{
+    margin-right: 12px;
+}
