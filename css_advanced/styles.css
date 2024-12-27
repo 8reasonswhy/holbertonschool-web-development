@@ -117,8 +117,55 @@ span{
 #section3{
     text-align: center;
 }
-#videos{
+#videos , #subbs{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 30px;
+}
+#sec3{
+    margin-top: 100px;
+}
+.video{
+    flex: 1;
+    max-width: 255px;
+}
+#videos p{
+    color: rgba(7, 22, 41, 0.5016);
+}
+#videos h2{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+}
+.signature{
+    display: flex; 
+
+}
+.signature img{
+    width: 30px;
+    height: 30px;
+    top: 261px;
+    left: 13px;
+}
+.signature h3{
+    font-size: 14px;
+    color: #C271FF;
+    font-weight: 600;
+    margin-left: 13px;
+    height: 27px;
+    margin-top: 7px;
+    font-family: "Source Sans Pro";
+
+}
+.etoile{
+    display: flex;
+    justify-content: left;
+    color: #C271FF;
+}
+.etoile span {
+    margin: 0px;
+    margin-left: 100px;
+    color: #C271FF;
+    font-family: "Source Sans Pro";
+
 }
